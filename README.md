@@ -18,7 +18,7 @@ A color picker react UI component.
 
 ## install
 
-[![NPM](https://nodei.co/npm/@jworkshop/colorpicker.png)](https://nodei.co/npm/@jworkshop/colorpicker/)
+[![NPM](https://nodei.co/npm/@jworkshop/colorpicker.png)](https://nodei.co/npm/@jworkshop/colorpicker)
 
 ## Usage
 
@@ -45,7 +45,9 @@ class Example extends Component {
     return (
       <ColorPicker
         className="example"
+        style: { ... },
         paletteClassName="paletteClassName"
+        paletteStyle: { ... },
         dialogWidth={200}
         dialogHeight={190}
         color={color}

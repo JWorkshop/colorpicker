@@ -1,1 +1,1 @@
-module.exports = require("./lib/colorpicker").default;
+module.exports = require("./lib/index").default;

@@ -1,12 +1,9 @@
 {
   "name": "@jworkshop/colorpicker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A color picker react UI component.",
   "author": "jworkshop <john.joydesign@gmail.com>",
-  "keywords": [
-    "color",
-    "picker"
-  ],
+  "keywords": ["color", "picker"],
   "repository": {
     "type": "git",
     "url": "git://github.com/JWorkshop/colorpicker.git"
@@ -33,16 +30,14 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
-  "main": "./lib/mouse.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build-css": "node-sass src/ -o src/",
-    "build": "npm run build-css && babel src -d lib --copy-files --ignore *.scss"
+    "build":
+      "npm run build-css && babel src -d lib --copy-files --ignore *.scss"
   },
   "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
+    "presets": ["env", "react"]
   },
   "eslintConfig": {
     "parserOptions": {
@@ -57,13 +52,8 @@
       "node": true,
       "es6": true
     },
-    "plugins": [
-      "react"
-    ],
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended"
-    ],
+    "plugins": ["react"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
     "rules": {
       "semi": 2,
       "no-empty": 0

@@ -1,6 +1,6 @@
 {
   "name": "@jworkshop/colorpicker",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A color picker react UI component.",
   "author": "jworkshop <john.joydesign@gmail.com>",
   "keywords": [
@@ -17,8 +17,7 @@
     "@jworkshop/mouse": "^0.0.3",
     "classnames": "^2.2.5",
     "color-functions": "^1.1.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "prop-types": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -30,7 +29,9 @@
     "node-sass": "^4.5.0",
     "npm": "^5.7.1",
     "npm-run-all": "^4.0.2",
-    "react-scripts": "^1.1.1"
+    "react-scripts": "^1.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "main": "./lib/mouse.js",
   "scripts": {
